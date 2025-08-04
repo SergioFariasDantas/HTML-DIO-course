@@ -1,0 +1,75 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio DIO Nº1</title>
+    </head>
+    <body>
+        <h1><strong><center><font color = "grey">Estudo do Conteúdo</font></center></strong></h1>
+        <hr>
+        <h2 id="Voltar"><strong>Indice</strong></h2>
+        <ul>
+            <li>
+                <h5><a href= "#surgimento">O Surgimento da Internet<sub> 1</sub></a></h5> 
+            </li>
+            <li>
+                <h5><a href= "#html">Como Funciona o <abbr title = Hyper Text Markup Language>HTML</abbr><sub> 2</sub></a></h5> 
+            </li>
+            <li>
+                <h5><a href= "#tags">O que são Tags?<sub> 3</sub></a></h5> 
+            </li>
+        </ul>
+        <hr>
+        <h3 id = "surgimento"><i><strong><mark>O Surgimento da Internet<sup> 1</sup></mark></strong></i></h3> <h6><a href = "#Voltar">Voltar</a></h6>
+            <small><p><h4>A internet surgiu a partir de pesquisas militares no auge da Guerra Fria. Neste contexto, 
+                em que os dois blocos ideológicos e politicamente antagônicos exerciam enorme controle e influência no mundo, 
+                qualquer mecanismo, qualquer inovação, qualquer ferramenta nova poderia contribuir nessa disputa liderada pela 
+                União Soviética e pelos Estados Unidos: as duas superpotências compreendiam a eficácia e a necessidade absoluta 
+                dos meios de comunicação. Nessa perspectiva, o governo dos Estados Unidos temia um ataque russo às bases militares. 
+                Um ataque poderia trazer a público informações sigilosas, tornando os EUA vulneráveis. 
+                Então foi idealizado um modelo de troca e compartilhamento de informações que permitisse a descentralização das mesmas. 
+                Assim, se o Pentágono fosse atingido, as informações armazenadas ali não estariam perdidas. 
+                Era preciso, portanto, criar uma rede, a ARPANET, criada pela ARPA, sigla para Advanced Research Projects Agency. 
+                Em 1962, J. C. R. Licklider, do Instituto Tecnológico de Massachusetts (MIT), já falava em termos da criação de uma 
+                Rede Intergaláctica de Computadores (Intergalactic Computer Network, em inglês).[carece de fontes] A Internet também 
+                teve outros importantes atores que influenciaram o seu surgimento, dentre eles: professores universitários (como Ken King), 
+                estudantes (como Vint Cerf), empresas de tecnologia (como a IBM) e alguns políticos norte-americanos (como Al Gore); 
+                caindo-se, portanto, a tese que vigorava anteriormente que enfatizava somente a vertente militar da sua criação.
+            </h4></p></small>
+            <center><img width = "400" src="https://telesintese.com.br/wp-content/uploads/2022/10/internet-dispositivos-tecnologicos-tecnologia-conexao.jpg" ></center>
+                <center><blockquote>“A tecnologia move o mundo.” - <u>Steve Jobs</u></blockquote></center>
+
+        <h3 id = "html"><i><strong><mark>Como Funciona o HTML?<sup> 2</sup></mark></strong></i></h3> <h6><a href = "#Voltar">Voltar</a></h6>
+            <small><p><h4>
+                O HTML opera como a espinha dorsal da Internet, servindo como a base sobre a qual as páginas da web 
+                são construídas e exibidas. No seu nível mais básico, o HTML consiste em uma série de elementos, 
+                cada um contido em tags, que instruem os navegadores sobre como interpretar e renderizar o conteúdo.
+                Quando um usuário acessa uma página da web, seu navegador recupera o código HTML do 
+                servidor web que hospeda o site. Em seguida, o navegador analisa o documento HTML, interpretando as 
+                tags e elementos para determinar a estrutura e o layout da página.
+            </h4></p></small>
+             <center><img width = "400" src="https://store-images.s-microsoft.com/image/apps.29405.13510798885101997.34f5ec74-0607-4c99-bca6-0b5dbce6deb4.aa2855d0-207a-4af2-bf2b-36c84b3fa82b?h=1280" ></center>
+                <center><blockquote><del>DEL</del></blockquote></center>
+
+        <h3 id = "tags"><i><strong><mark>O que são Tags?<sup> 3</sup></mark></strong></i></h3> <h6><a href = "#Voltar">Voltar</a></h6>
+            <small><p><h4>
+                As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, 
+                as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página.
+                A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e 
+                “menor que”), ou seja: < >.
+                As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que não precisam de fechamento. 
+                As tags que precisam de fechamento possuem a sintaxe tag /tag, ambas entre chaves, já as que não precisam de 
+                fechamento possuem como estrutura tag/ entre chaves.
+                Além disso, uma mesma tag pode receber um ou mais atributos, que possuirá um valor que modifica sua estrutura ou 
+                funcionalidade.
+            </h4></p></small>
+            <center><img width = "400" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3SG3lbaLKzyojzoft7ReJWAqCheQ7UqB2Iw&s" ></center>
+                <center><blockquote><del>DEL</del></blockquote></center>
+        <p></p>
+        <p></p>
+        <p></p>    
+    </body>
+    </html>
+</html>

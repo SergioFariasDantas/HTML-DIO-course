@@ -1,0 +1,52 @@
+<html>
+    <!--A TAG head é definida para o que é pra ser inicializado antes do usuário-->
+    <!--u -> underline-->>
+    <head>
+        <title>Meu primeiro programa</title>
+    </head>
+    
+    <!--A TAG body é para o corpo da página-->
+    
+    <body>
+        
+        <!--TAG strong: negrito / i: italico / hn: niveis de tamanho da fonte para titulos / img src: imagem / mark: marca texto-->
+        
+        <strong id = "titulo"><mark>Meu primeiro <i>programa</i></mark></strong>
+        <center>
+        <h1><center>Meu primeiro programa</center></h1>
+        <center><input type = "text"></center>
+        <center><img  width = "150"src = "https://cdnb.artstation.com/p/assets/images/images/036/340/569/large/joe-parente-picolas-cage.jpg?1617387639"/></center>
+        
+        <!--p: paragraph / sup: elevação-->
+        
+        <p>Hello world<sup>*</sup></p>
+        
+        <!--blockquote: citação / u: underline-->
+        
+        <blockquote>"Quem escreve e apaga depois cerve o bumbum com batata e arroz" - <u>Sábio Desconhecido</u></blockquote>
+        
+        <!--a href: link(ancora) - target blank: nova aba / target self: própria aba - title: titulo do link - #: definicição de id para ancoragem-->
+        
+        <a href = "https://www.adultswim.com/etcetera/elastic-man/" target = "_blank" title = "ulala ;D">Coisa boa</a>
+        </center>
+        
+        <!--ol: lista ordenada/ li: lista/ ul: lista não orndenada-->
+        <!--hr: traçamento de linha na página-->
+        <!--small: criação de texto pequeno-->
+        
+        <ol>
+            <li>Indice 1</li>
+                <ol>
+                    <li>indice 1.1</li>
+                    <li>indice 2.2</li>
+                </ol>
+        </ol>
+        <ul>
+            <li>Indice 1</li>
+                <ul>
+                    <li>indice 1.1</li>
+                    <li>indice 2.2</li>
+                </ul>
+        </ul>
+    </body>
+</html>

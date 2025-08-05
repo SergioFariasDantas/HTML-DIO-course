@@ -1,0 +1,31 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 2</title>
+    </head>
+    <body>
+        
+        <!--a tag <form> serve para criar o formulário / <input> é filha de <form>-->
+        <!--input tem caracteristicas como: type, name-->
+        <!--a caracteristica "action" do form serve para direcionar as informações para o local desejado-->
+        <!--as caracteristicas "method" POST = enviar informação para o servidor / GET = pegar informação do servidor-->
+            <!--(OBS: no name usar colchetes no final se for mesma variável com múltiplos valores)-->
+                <!--(OBS: isso se for checkbox [talvez funcione com outros tipos...])-->
+        <!--a caracteristica "target" do metódo form serve para escolher permanecer ou não na mesma página ao envia-lo-->
+        
+        <form name="form" action="teste.com.br/asdaosbdsabdiabi">
+            Nome: <input type = "text" name="name"/><br>
+            Age: <input type = "number" name="age"/><br>
+            Senha: <input type = "password" name="password"/><br>
+            
+            <!--radio é um tipo de input que serve para definir uma opção ou outra-->
+            <input type = "radio" name="radio" value="sim"/>Sim
+            <input type = "radio" name="radio" value="nao"/>Nao
+            <button type = "submit">Enviar</button>
+        </form>
+    </body>
+    </html>
+</html>

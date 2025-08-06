@@ -16,7 +16,7 @@
                 <!--(OBS: isso se for checkbox [talvez funcione com outros tipos...])-->
         <!--a caracteristica "target" do metódo form serve para escolher permanecer ou não na mesma página ao envia-lo-->
         
-        <form name="form" action="teste.com.br/asdaosbdsabdiabi">
+        <form name="form" method = "get">
             Nome: <input type = "text" name="name"/><br>
             Age: <input type = "number" name="age"/><br>
             Senha: <input type = "password" name="password"/><br>
@@ -25,6 +25,27 @@
             <input type = "radio" name="radio" value="sim"/>Sim
             <input type = "radio" name="radio" value="nao"/>Nao
             <button type = "submit">Enviar</button>
+
+            <!--select é um tipo de input que tem como tag filha option-->
+            <br>
+            <p>escolha uma opção:
+                <select name="option">
+                    <option value = "">Escolha uma opção</option>
+                    <option value = "yes">yes</option>
+                    <option value = "no">no</option>
+                </select>
+            </p>
+
+            <!--textarea é um campo onde se pode colocar texto-->
+            <br><p>Mensagem:<textarea name = "textarea"></textarea></p>
+
+            <!--a função font possui metodos como "color", "face"(fonte do texto), -->
+
+            <!--div é uma display block que serve para delimitar a horizontal inteira da tela-->
+                <!--span funcionada no mesmo formato, só que mais delimitado-->
+            
+            <!--fieldset serve para delimitar uma área, deixando-a em torno de um quadrado0-->
+                <!--o atributo legend permite nomear e mostrar o nome do fieldset-->
         </form>
     </body>
     </html>
